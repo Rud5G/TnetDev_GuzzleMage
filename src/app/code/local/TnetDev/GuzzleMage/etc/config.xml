@@ -17,4 +17,15 @@
             </tnetdev_guzzlemage>
         </helpers>
     </global>
+    <frontend>
+        <routers>
+            <tnetdev_guzzlemage>
+                <use>standard</use>
+                <args>
+                    <module>TnetDev_GuzzleMage</module>
+                    <frontName>guzzlemage</frontName>
+                </args>
+            </tnetdev_guzzlemage>
+        </routers>
+    </frontend>
 </config>
