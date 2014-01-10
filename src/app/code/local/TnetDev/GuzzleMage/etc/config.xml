@@ -6,7 +6,6 @@
         </TnetDev_GuzzleMage>
     </modules>
     <global>
-        <composer_vendor_path><![CDATA[{{root_dir}}/../vendor]]></composer_vendor_path>
         <models>
             <tnetdev_guzzlemage>
                 <class>TnetDev_GuzzleMage_Model</class>
@@ -17,6 +16,14 @@
                 <class>TnetDev_GuzzleMage_Helper</class>
             </tnetdev_guzzlemage>
         </helpers>
+        <resources>
+            <tnetdev_guzzlemage_setup>
+                <setup>
+                    <module>TnetDev_GuzzleMage</module>
+                </setup>
+            </tnetdev_guzzlemage_setup>
+        </resources>
+        <composer_vendor_path><![CDATA[{{root_dir}}/../vendor]]></composer_vendor_path>
     </global>
     <frontend>
         <routers>
@@ -29,6 +36,7 @@
             </tnetdev_guzzlemage>
         </routers>
     </frontend>
+
     <default>
         <credentials>
             <github>
