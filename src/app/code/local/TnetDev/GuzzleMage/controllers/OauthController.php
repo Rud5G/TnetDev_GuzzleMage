@@ -24,8 +24,7 @@ class TnetDev_GuzzleMage_OauthController extends Mage_Core_Controller_Front_Acti
 
     public function mockAction()
     {
-
-        $client = new Client('http://www.test.com/');
+        $client = new Client('http://api.discogs.com/');
 
         $mock = new MockPlugin();
         $mock->addResponse(new Response(200))
@@ -35,10 +34,10 @@ class TnetDev_GuzzleMage_OauthController extends Mage_Core_Controller_Front_Acti
         $client->addSubscriber($mock);
 
         // The following request will receive a 200 response from the plugin
-        $client->get('http://www.example.com/')->send();
+        $client->get('http://api.discogs.com/')->send();
 
         // The following request will receive a 404 response from the plugin
-        $client->get('http://www.test.com/')->send();
+        $client->get('http://api.discogs.com/')->send();
 
     }
 
@@ -78,5 +77,5 @@ class TnetDev_GuzzleMage_OauthController extends Mage_Core_Controller_Front_Acti
 
     }
 
-    
+
 }
