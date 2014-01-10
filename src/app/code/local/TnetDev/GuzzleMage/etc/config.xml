@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <TnetDev_GuzzleMage>
+            <version>0.1.0</version>
+        </TnetDev_GuzzleMage>
+    </modules>
+    <global>
+        <models>
+            <tnetdev_guzzlemage>
+                <class>TnetDev_GuzzleMage_Model</class>
+            </tnetdev_guzzlemage>
+        </models>
+        <helpers>
+            <tnetdev_guzzlemage>
+                <class>TnetDev_GuzzleMage_Helper</class>
+            </tnetdev_guzzlemage>
+        </helpers>
+    </global>
+</config>

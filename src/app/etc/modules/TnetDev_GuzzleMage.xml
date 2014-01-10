@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <TnetDev_GuzzleMage>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Hackathon_PSR0Autoloader/>
+
+            </depends>
+        </TnetDev_GuzzleMage>
+    </modules>
+</config>
