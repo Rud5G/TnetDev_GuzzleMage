@@ -10,6 +10,8 @@
         }
     ],
     "require": {
-        "magento-hackathon/magento-composer-installer": "*"
+        "magento-hackathon/magento-composer-installer": "*",
+        "firegento/psr0autoloader": "*",
+        "guzzle/guzzle": "~3.7"
     }
 }
