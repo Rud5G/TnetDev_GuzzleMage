@@ -1,0 +1,15 @@
+{
+    "name": "tnetdev/guzzlemage",
+    "type": "magento-module",
+    "description": "Wrapper for developing with Guzzle in Magento with composer autoload",
+    "homepage": "https://github.com/Rud5G/TnetDev_GuzzleMage",
+    "authors":[
+        {
+            "name": "Rudger Gravestein",
+            "email": "r.gravestein@triple-networks.com"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
