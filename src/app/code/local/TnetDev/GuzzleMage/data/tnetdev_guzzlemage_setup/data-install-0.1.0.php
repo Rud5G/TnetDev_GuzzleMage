@@ -8,7 +8,7 @@ $installer->startSetup();
 
 //uncomment + remove the entry from core_resource table.
 
-//$installer->setConfigData('crentails/github/username', '');
-//$installer->setConfigData('crentails/github/password', '');
+//$installer->setConfigData('credentials/github/username', '');
+//$installer->setConfigData('credentials/github/password', '');
 
 $installer->endSetup();
