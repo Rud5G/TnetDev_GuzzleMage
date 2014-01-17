@@ -31,7 +31,7 @@ class TnetDev_GuzzleMage_IndexController extends Mage_Core_Controller_Front_Acti
         printf('<pre>request->getUrl %s</pre>', $request->getUrl());
         printf('<pre>request->getHeaders %s</pre>', print_r($request->getHeaders(), true));
         printf('<pre>request->getBody %s</pre>', print_r($response->getBody(), true));
-        printf('<pre>request->xml %s</pre>', print_r($response->json(), true));
+        printf('<pre>request->xml %s</pre>', print_r($response->xml(), true));
     }
 
 }
