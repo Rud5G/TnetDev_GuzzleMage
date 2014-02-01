@@ -1,2 +1,10 @@
+# composer
 composer.phar
+bin/*
+vendor/*
+tests/vendor/*
+tests/composer.lock
+
+# editor
 .idea
+

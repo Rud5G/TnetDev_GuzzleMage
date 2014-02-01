@@ -1,0 +1,17 @@
+{
+    "type": "metapackage",
+    "description": "Empty package for the test requirements",
+    "authors":[
+        {
+            "name": "Rudger Gravestein",
+            "email": "r.gravestein@triple-networks.com"
+        }
+    ],
+    "config": {
+        "bin-dir": "../bin"
+    },
+    "require": {
+        "n98/magerun": "*",
+        "phpunit/phpunit": "3.7.*"
+    }
+}
