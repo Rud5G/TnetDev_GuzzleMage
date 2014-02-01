@@ -13,5 +13,8 @@
         "magento-hackathon/magento-composer-installer": "*",
         "firegento/psr0autoloader": "*",
         "guzzle/guzzle": "~3.7"
+    },
+    "require-dev": {
+        "n98/magerun": "dev-develop"
     }
 }
