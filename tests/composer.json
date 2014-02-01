@@ -11,7 +11,9 @@
         "bin-dir": "../bin"
     },
     "require": {
-        "n98/magerun": "*",
         "phpunit/phpunit": "3.7.*"
+    },
+    "require-dev": {
+        "n98/magerun": "*"
     }
 }

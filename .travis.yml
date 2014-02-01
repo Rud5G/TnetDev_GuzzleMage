@@ -22,9 +22,10 @@ php:
 #  - 5.5
 
 before_script:
+  - mysql -e 'DROP DATABASE IF EXISTS `magento_travis`; CREATE DATABASE IF NOT EXISTS `magento_travis`;'
   - curl -s http://getcomposer.org/installer | php
   - php composer.phar install --prefer-dist --no-interaction --working-dir ./tests/
-  - mysql -e 'DROP DATABASE IF EXISTS `magento_travis`; CREATE DATABASE IF NOT EXISTS `magento_travis`;'
+  - curl https://raw.github.com/netz98/n98-magerun/master/n98-magerun.phar -o bin/n98-magerun && chmod +x $_
   - export TEST_MAGENTO_ROOT="./tests/${MAGENTO_VERSION}"
   - bin/n98-magerun install --magentoVersionByName="${MAGENTO_VERSION}" --installationFolder="./tests/${MAGENTO_VERSION}" --dbHost=localhost --dbUser=root --dbPass='' --dbName="magento_travis" --installSampleData=yes --useDefaultConfigParams=yes --baseUrl="http://travis.magento.local/"
 
