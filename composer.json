@@ -15,6 +15,7 @@
         "guzzle/guzzle": "~3.7"
     },
     "require-dev": {
-        "n98/magerun": "dev-develop"
+        "n98/magerun": "dev-develop",
+        "phpunit/phpunit": "3.7.*"
     }
 }
