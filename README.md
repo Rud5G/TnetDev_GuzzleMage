@@ -2,4 +2,4 @@
 -------------
 
 Proof of Concept: 
-Using Guzzle in Magento with the composer Autoloader — Edit
+Using Guzzle in Magento with the composer Autoloader
